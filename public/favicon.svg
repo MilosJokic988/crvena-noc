@@ -1,12 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
   <defs>
-    <linearGradient id="h" x1="0" y1="1" x2="0" y2="0">
-      <stop offset="0%" stop-color="#5e000c"/>
-      <stop offset="70%" stop-color="#c4001c"/>
-      <stop offset="100%" stop-color="#ff7a3a"/>
+    <linearGradient id="l" gradientUnits="userSpaceOnUse" x1="100" y1="26" x2="100" y2="170">
+      <stop offset="0%" stop-color="#ffb08a"/>
+      <stop offset="50%" stop-color="#ff4a2a"/>
+      <stop offset="100%" stop-color="#d1001f"/>
     </linearGradient>
   </defs>
-  <rect width="64" height="64" rx="12" fill="#0b0304"/>
-  <path fill="url(#h)" d="M14 54 C 4 44, 2 26, 12 8 C 12 24, 18 38, 30 54 Z"/>
-  <path fill="url(#h)" d="M50 54 C 60 44, 62 26, 52 8 C 52 24, 46 38, 34 54 Z"/>
+  <rect width="200" height="200" rx="36" fill="#0b0304"/>
+  <g fill="none" stroke="url(#l)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M100 52 L100 160"/>
+    <path d="M66 36 C 70 62, 88 70, 100 70 C 112 70, 130 62, 134 36"/>
+    <circle cx="100" cy="36" r="9"/>
+    <path d="M58 110 L58 92 L142 92 L142 110"/>
+    <path d="M80 114 L100 138 L120 114"/>
+    <path d="M70 146 C 76 168, 124 168, 130 146"/>
+  </g>
 </svg>

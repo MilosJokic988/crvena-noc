@@ -21,16 +21,16 @@ Za verziju spremnu za postavljanje na internet: `npm run build` (rezultat je u f
 ## Gde je šta
 
 ```
-public/                 video u pozadini (hero.mp4, hero.webm, hero-mobile.mp4) i poster.jpg
+public/                 video u pozadini (hero.mp4, hero.webm, hero-mobile.mp4), poster.jpg i favicon.svg
 src/
   App.jsx               glavna stranica: lista, filteri, pretraga, sortiranje
   index.css             svi stilovi (boje su na vrhu, u :root)
   data/films.js         100 filmova: rang, naslov, godina, ocene, reditelj, zemlja, žanr, opis, zanimljivost
   data/genres.js        nazivi žanrova
   components/
-    Hero.jsx            naslovna sa videom, rogovima i satom
+    Hero.jsx            naslovna sa videom, sigilom i satom
     Clock.jsx           sat u realnom vremenu + odbrojavanje do ponoći
-    Horns.jsx           rogovi (SVG)
+    Sigil.jsx           mistični sigil (SVG): sam se iscrta, prsten se okreće, tinja
     Embers.jsx          žar koji lebdi i reaguje na miš/klik
     FilmRow.jsx         jedan film u listi
     Meter.jsx           traka sa ocenom

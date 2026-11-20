@@ -9,7 +9,7 @@ import Embers from './components/Embers.jsx';
 import FilmRow from './components/FilmRow.jsx';
 import DecadeChart from './components/DecadeChart.jsx';
 import Picker from './components/Picker.jsx';
-import Horns from './components/Horns.jsx';
+import Sigil from './components/Sigil.jsx';
 
 const FILMS = RAW.map(toFilm);
 
@@ -146,7 +146,7 @@ export default function App() {
       </main>
 
       <footer>
-        <div className="big"><Horns className="foot-horns" />CRVENA NOĆ</div>
+        <div className="big"><Sigil className="foot-sigil" id="foot" />CRVENA NOĆ</div>
         <span>Vodič kroz najbolje horor filmove · ocene: Rotten Tomatoes</span>
         <span>Klikni bilo gde da razbuktaš žar</span>
       </footer>

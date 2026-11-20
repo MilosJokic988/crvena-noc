@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import Horns from './Horns.jsx';
+import Sigil from './Sigil.jsx';
 import Meter from './Meter.jsx';
 import { GENRES } from '../data/genres.js';
 
@@ -50,7 +50,7 @@ export default function Picker({ open, pool, onClose, onMarkSeen }) {
     <div className="picker-backdrop" onClick={(e) => e.target === e.currentTarget && onClose()}>
       <div className="picker" role="dialog" aria-modal="true" aria-label="Predlog filma za večeras">
         <button className="picker-x" onClick={onClose} aria-label="Zatvori">×</button>
-        <Horns className="picker-horns" />
+        <Sigil className="picker-sigil" id="pick" />
         <div className="label">Večeras gledaš</div>
 
         {!pool.length ? (

@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import Horns from './Horns.jsx';
+import Sigil from './Sigil.jsx';
 
 export default function Nav({ soundOn, onSound }) {
   const [solid, setSolid] = useState(false);
@@ -14,7 +14,7 @@ export default function Nav({ soundOn, onSound }) {
   return (
     <nav className={`nav ${solid ? 'solid' : ''}`}>
       <a className="mark" href="#top">
-        <Horns className="mark-horns" />
+        <Sigil className="mark-sigil" ring={false} id="nav" />
         CRVENA NOĆ
       </a>
       <ul>

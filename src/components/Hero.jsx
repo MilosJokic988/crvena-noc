@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import Horns from './Horns.jsx';
+import Sigil from './Sigil.jsx';
 import Clock from './Clock.jsx';
 
 export default function Hero({ total, seenCount, onPick }) {
@@ -48,13 +48,12 @@ export default function Hero({ total, seenCount, onPick }) {
 
       <Clock />
 
+      <Sigil className="hero-sigil" id="hero" />
+
       <div className="hero-inner" ref={innerRef}>
         <div className="kicker">{total} najboljih horor filmova svih vremena</div>
         <h1>
-          <span className="title-wrap">
-            <Horns className="title-horns" />
-            <span className="flick">Crvena</span>
-          </span>
+          <span className="flick">Crvena</span>
           <br />
           <span className="flick b">noć</span>
         </h1>
